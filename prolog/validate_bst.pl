@@ -1,7 +1,7 @@
 %https://leetcode.com/problems/validate-binary-search-tree/
 
-vstup(t(t(nil,1,nil),2,t(nil,3,nil))).
-vstup2(t(t(nil,1,nil),5,t(t(nil,3,nil),4,t(nil,6,nil)))).
+input(t(t(nil,1,nil),2,t(nil,3,nil))).
+input2(t(t(nil,1,nil),5,t(t(nil,3,nil),4,t(nil,6,nil)))).
 
 less(nil, _) :- !.
 less(V1, V2) :- V1 < V2.

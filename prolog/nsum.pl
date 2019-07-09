@@ -39,7 +39,7 @@ distance(X,Y,Z) :-
     W is X-Y,
     Z is abs(W).
 
-% V zadání bylo, že má vrátit sumu, tohle vrací prvky
+% Returns the actual elements rather than the required sum
 n_sum_closest(N, Nums, Target, Out) :-
     combinations(N, Nums, Comb), 
     Comb = [C | Cs],

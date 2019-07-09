@@ -1,7 +1,7 @@
+--https://leetcode.com/problems/simplify-path/
+
 import Data.List.Split
 import Data.List
-
---https://leetcode.com/problems/simplify-path/
 
 simplifyPath :: String -> String
 simplifyPath path | length pathList == 1    = "/"

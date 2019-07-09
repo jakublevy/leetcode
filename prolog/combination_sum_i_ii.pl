@@ -1,5 +1,6 @@
 %combination sum I
 % https://leetcode.com/problems/combination-sum/
+
 permutation_member(X, Xs) :-
     permutation(X, Y),
     member(Y, Xs).
